@@ -14,7 +14,7 @@ You can install the released version of `acroname` from
 [GitHub](github.com) with:
 
 ``` r
-devtools::install_.packages_github("acroname")
+devtools::install_packages_github("acroname")
 ```
 
 ## Example
