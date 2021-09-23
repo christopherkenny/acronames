@@ -6,7 +6,9 @@
 #' @export
 #'
 #' @examples
+#' \donttest{
 #' dict <- dictionary()
+#' }
 dictionary <- function(dict = words::words) {
   dict %>%
     tibble::as_tibble() %>%

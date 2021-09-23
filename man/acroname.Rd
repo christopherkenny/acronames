@@ -23,6 +23,8 @@ vector of possibilities
 Create Names using Acronyms
 }
 \examples{
+data('dict')
 test <- acroname(required = list('Harvard', c('Automated', 'Algorithmic'),
-'Redistricting', c('Team', 'Project', 'Group')), optional = list('Methodology'))
+'Redistricting', c('Team', 'Project', 'Group')), optional = list('Methodology'),
+dict = dict)
 }

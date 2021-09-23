@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Function reference • acroname</title>
+<title>Dictionary of words — dict • acroname</title>
 
 
 <!-- jquery -->
@@ -39,7 +39,8 @@
 
 
 
-<meta property="og:title" content="Function reference" />
+<meta property="og:title" content="Dictionary of words — dict" />
+<meta property="og:description" content="A dataset words extracted and separated from words::words." />
 
 
 
@@ -58,7 +59,7 @@
   </head>
 
   <body data-spy="scroll" data-target="#toc">
-    <div class="container template-reference-index">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -100,60 +101,30 @@
       </header>
 
 <div class="row">
-  <div class="contents col-md-9">
+  <div class="col-md-9 contents">
     <div class="page-header">
-      <h1>Reference</h1>
+    <h1>Dictionary of words</h1>
+    
+    <div class="hidden name"><code>dict.Rd</code></div>
     </div>
 
-    <table class="ref-index">
+    <div class="ref-description">
+    <p>A dataset words extracted and separated from <code><a href='https://rdrr.io/pkg/words/man/words.html'>words::words</a></code>.</p>
+    </div>
 
-    <colgroup>
-      
-      <col class="alias" />
-      <col class="title" />
-    </colgroup>
+    <pre class="usage"><span class='va'>dict</span></pre>
 
-    <tbody>
-      <tr>
-        <th colspan="2">
-          <h2 id="section-all-functions" class="hasAnchor"><a href="#section-all-functions" class="anchor"></a>All functions</h2>
-          <p class="section-desc"></p>
-        </th>
-      </tr>
-      
-      
-    </tbody><tbody>
-      
-      
-      <tr>
-        
-        <td>
-          <p><code><a href="acroname.html">acroname()</a></code> </p>
-        </td>
-        <td><p>Create Names using Acronyms</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="dict.html">dict</a></code> </p>
-        </td>
-        <td><p>Dictionary of words</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="dictionary.html">dictionary()</a></code> </p>
-        </td>
-        <td><p>Create a Dictionary</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="letters_list.html">letters_list()</a></code> </p>
-        </td>
-        <td><p>Create Letters List</p></td>
-      </tr>
-    </tbody>
-    </table>
+
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
+
+    <p>A data frame with 175393 rows and 2 variables:</p><dl>
+<dt>word</dt><dd><p>words from <code><a href='https://rdrr.io/pkg/words/man/words.html'>words::words</a></code></p></dd>
+<dt>chars</dt><dd><p>a letters list of characters</p></dd>
+
+</dl>
+
+
   </div>
-
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
       <h2 data-toc-skip>Contents</h2>

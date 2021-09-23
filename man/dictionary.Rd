@@ -16,5 +16,7 @@ tibble
 Create a Dictionary
 }
 \examples{
+\donttest{
 dict <- dictionary()
+}
 }
