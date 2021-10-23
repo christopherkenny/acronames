@@ -1,20 +1,20 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# acroname
+# acronames
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of acroname is to …
+The goal of acronames is to …
 
 ## Installation
 
-You can install the released version of `acroname` from
+You can install the released version of `acronames` from
 [GitHub](github.com) with:
 
 ``` r
-devtools::install_packages_github("acroname")
+devtools::install_packages_github("acronames")
 ```
 
 ## Example
@@ -22,8 +22,8 @@ devtools::install_packages_github("acroname")
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
-library(acroname)
-acroname(required = 
+library(acronames)
+acronames(required = 
            list('Harvard', 
                 c('Automated', 'Algorithmic'), 
                 'Redistricting', 
