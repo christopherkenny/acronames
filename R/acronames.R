@@ -12,10 +12,10 @@
 #'
 #' @examples
 #' data('dict')
-#' test <- acroname(required = list('Harvard', c('Automated', 'Algorithmic'),
+#' test <- acronames(required = list('Harvard', c('Automated', 'Algorithmic'),
 #' 'Redistricting', c('Team', 'Project', 'Group')), optional = list('Methodology'),
 #' dict = dict)
-acroname <- function(required = list(), optional = list(),
+acronames <- function(required = list(), optional = list(),
                      dict = dictionary()){
   # Assume inputs fine ----
   # TODO; don't assume they are
